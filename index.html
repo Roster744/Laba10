@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Laba10</title>
+</head>
+<body>
+    <div class="wrapper">
+        <form action="">
+            <table id="soursetable">
+                <tr>
+                    <th colspan="2">Доставка продукції:</th>
+                </tr>
+                <tr>
+                    <th>ПІБ</th>
+                    <th><input type="text" placeholder="Текстове поле" id="name" name="name"></th>
+                </tr>
+                <tr>
+                    <th>Адреса</th>
+                    <th><input type="text" placeholder="Текстове поле" id="address" name="address"></th>
+                </tr>
+                <tr>
+                    <th>E-mail</th>
+                    <th><input type="text" placeholder="Поле пошти" id="email" name="email"></th>
+                </tr>
+                <tr>
+                    <th>Яку Каву хочете</th>
+                    <th><input type="text" placeholder="Багатострокове поле" id="coffe" name="coffe"></th>
+                </tr>
+                <tr>
+                    <th>Скільки шт.</th>
+                    <th><input type="text" placeholder="Поле для вводу цифр" id="much" name="much"></th>
+                </tr>
+                <tr>
+                    <th>Замовити</th>
+                    <th><button type="button" class="btn" onclick="addRow()">Кнопка</button></th>
+                </tr>
+            </table>
+        </form>
+        <form action="">
+            <table id="datatable">
+                <tr>
+                    <th>ПІБ</th>
+                    <th>Адреса</th>
+                    <th>E-mail</th>
+                    <th>Яку Каву хочете</th>
+                    <th>Скільки шт.</th>
+                </tr>
+                <tr>
+                </tr>
+            </table>
+        </form>
+    </div>
+    <script src="style.js"></script>
+</body>
+</html>
